@@ -20,8 +20,7 @@ app.add_middleware(
     allow_headers=["*"],  # Allow all headers
 )
 # Azure Custom Vision Prediction API details
-# PREDICTION_URL = "https://realtimeobjectproject02-prediction.cognitiveservices.azure.com/customvision/v3.0/Prediction/9f1fe189-e609-4b31-a7c4-ee5fc92e0771/detect/iterations/chair/image"
-# PREDICTION_KEY = "D8AbiSSC4wn2WFPsq5KsgfpotGttPH2nhyiZYAWQSalS15ESYxf2JQQJ99BAACYeBjFXJ3w3AAAIACOGBN1C"
+
 # iterartion 4
 load_dotenv()
 
